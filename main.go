@@ -1,19 +1,3 @@
-// // 	bot.Command("query for bot-<meesage>", &slacker.CommandDefinition{
-// // 		Description: "send any quest to wolframe",
-// // 		Examples:    "who is the president of india",
-// // 		Handler: func(bc slacker.BotContext, r slacker.Request, w slacker.ResponseWriter) {
-// // 			query := request.Param("message")
-// // 			fmt.Println(query)
-// // 			msg, _ := client.Parse(&witai.MessageRequest{
-// // 				Query: query,
-// // 			})
-// // 			data, _ := json.MarshalIndent(msg, "", "    ")
-// // 			rough := string(data[:])
-// // 			value := gjson.Get(rough, "entities.wit$wolfram_search_query:wolfram_search_query")
-// // 			fmt.Println(rough)
-// // 			response.Reply("recieved")
-// // 		},
-// // 	})
 
 // //		ctx, cancel := context.WithCancel(context.Background())
 // //		defer cancel()
