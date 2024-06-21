@@ -1,11 +1,4 @@
 
-
-// 	"github.com/joho/godotenv"
-// 	"github.com/shomali11/slacker"
-// 	"github.com/tidwall/gjson"
-// 	witai "github.com/wit-ai/wit-go/v2"
-// )
-
 // func printCommandEvents(analysisChannel <-chan *slacker.CommandEvent) {
 // 	for event := range analysisChannel {
 // 		fmt.Println("command events")
