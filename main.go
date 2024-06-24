@@ -1,16 +1,4 @@
 
-
-// func main() {
-// 	godotenv.Load(".env")
-// 	bot := slacker.NewClient(os.Getenv("SLACK_BOT_TOKEN"), os.Getenv("SLACK_APP_TOKEN"))
-// 	client := witai.NewClient(os.Getenv("WIT_AI_TOKEN"))
-// 	go printCommandEvents(bot.CommandEvents())
-
-// 	bot.Command("query for bot-<message>", &slacker.CommandDefinition{
-// 		Description: "send any quest to wolframe",
-// 		Examples:    "who is the president of india",
-// 		Handler: func(bc slacker.BotContext, r slacker.Request, w slacker.ResponseWriter) {
-// 			query := r.Param("message")
 // 			fmt.Println(query)
 // 			msg, _ := client.Parse(&witai.MessageRequest{
 // 				Query: query,
