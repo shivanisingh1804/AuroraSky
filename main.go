@@ -1,17 +1,4 @@
 
-// 			fmt.Println(query)
-// 			msg, _ := client.Parse(&witai.MessageRequest{
-// 				Query: query,
-// 			})
-// 			data, _ := json.MarshalIndent(msg, "", "    ")
-// 			rough := string(data[:])
-// 			value := gjson.Get(rough, "entities.wit$wolfram_search_query.0.value")
-// 			fmt.Println(rough)
-// 			fmt.Println(value.String())
-// 			w.Reply("received")
-// 		},
-// 	})
-
 //		ctx, cancel := context.WithCancel(context.Background())
 //		defer cancel()
 //		err := bot.Listen(ctx)
